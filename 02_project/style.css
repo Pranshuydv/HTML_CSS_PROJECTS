@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000000;
+
+}
+
+body {
+    background-image: url(building.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.nav {
+    font-size: 20px;
+    margin: 20px;
+    position: relative;
+}
+
+.nav .logo {
+    float: left;
+    font-size: 40px;
+    padding-left: 10%;
+    color: red;
+
+}
+
+.nav .menu {
+    float: right;
+    padding-right: 5%;
+    margin: 10px;
+}
+
+.nav .menu a {
+    color: black;
+    padding: 10px;
+}
+
+.nav .menu a:hover {
+    color: aliceblue;
+
+}
+
+.container {
+    width: 50%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 20%;
+    margin-left: 25%;
+    position: absolute;
+}
+
+.container .font {
+    font-size: 40px;
+    padding-left: 15%;
+}
+
+.container p {
+    font-size: 20px;
+    padding: 5%;
+}
+
+.container button {
+    padding: 20px;
+    margin-left: 35%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: orange;
+}

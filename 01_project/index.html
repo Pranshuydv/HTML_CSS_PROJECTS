@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- font-awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- using Internal CSS  -->
+    <title>Sign In With</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        .center {
+            height: 400px;
+            width: 400px;
+            background-color: white;
+            box-shadow: 1px 1px 7px;
+            margin: auto;
+            margin-top: 150px;
+            border-radius: 10px;
+        }
+
+        .sign {
+            display: inline-block;
+            font-size: 30px;
+            margin-top: 40px;
+            margin-left: 120px;
+        }
+
+        .button {
+            display: flex;
+            margin: 10px;
+
+        }
+
+        .btn1 {
+            padding: 10px;
+            margin: 10px;
+            margin-left: 50px;
+            font-size: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+
+        }
+
+        .btn2 {
+            padding: 10px;
+            margin: 10px;
+            margin-left: 60px;
+            font-size: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn1:hover {
+            background-color: blueviolet;
+        }
+
+        .btn2:hover {
+            background-color: blueviolet;
+        }
+
+        .login {
+            height: 200px;
+            width: 300px;
+            margin: auto;
+        }
+
+        .uname {
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+
+        .pass {
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+
+        .sbut {
+            height: 40px;
+            width: 250px;
+            margin-left: 30px;
+            background-color: black;
+            font-size: 20px;
+            margin-top: 30px;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .sbut:hover {
+            background-color: rgb(56, 55, 55);
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="center">
+
+        <div class="sign">Sign IN With</div>
+
+        <div class="button">
+            <button class="btn1">
+                <i class="fa-brands fa-facebook">
+                    FACEBOOK
+                </i>
+            </button>
+
+            <button class="btn2">
+                <i class="fa-brands fa-google">
+                    GOOGLE
+                </i>
+            </button>
+        </div>
+
+        <div class="login">
+            <form>
+                USERNAME:
+                <br>
+                <input type="text" class="uname" size="40px">
+                <br>
+                <br>
+                PASSWORD:
+                <br>
+                <input type="password" class="pass" size="40px">
+            </form>
+
+            <button class="sbut">SIGN IN</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

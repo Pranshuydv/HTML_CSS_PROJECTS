@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+body {
+    background-color: rgb(225, 225, 37);
+}
+
+.container {
+    width: 80%;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 10px;
+}
+
+
+.container .left {
+    width: 65%;
+    height: 500px;
+    background-image: url(img2.jpg);
+    border-radius: 20px 0px 0px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    box-shadow: 10px 10px 20px;
+}
+
+.container .right {
+    box-shadow: 10px 10px 20px;
+    width: 35%;
+    height: 500px;
+    background-color: whitesmoke;
+    float: right;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.container .right .box {
+    padding: 30px;
+}
+
+
+.container .right .box form {
+    width: 350px;
+    height: 300px;
+    padding: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.container .right .box form input {
+    background-color: transparent;
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 2px solid;
+    font-size: 15px;
+    padding: 10px;
+}
+
+
+.container .right .box form h6 {
+    font-size: 15px;
+    margin-left: 40%;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.container .right .box form button {
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container .right .box form p {
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+

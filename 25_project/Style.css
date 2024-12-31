@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 120vh;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 10px;
+}
+
+.aside {
+    width: 19vw;
+    border: 2px solid;
+    margin: 5px;
+    float: left;
+}
+
+.section {
+    height: 100vh;
+    width: 41vw;
+    float: right;
+}
+
+.section .box1 {
+    height: 360px;
+    width: 510px;
+    border: 2px solid;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+.section .box2 {
+    height: 350px;
+    width: 510px;
+    border: 2px solid;
+    margin: 5px;
+    padding: 10px;
+}
+
+.footer {
+    height: 15vh;
+    width: 100%;
+    background-color: rgb(45, 154, 118);
+    margin-top: 200px;
+}
+
+.container .aside .font {
+    margin: 10px;
+}
+
+.container .aside .font i {
+    padding-right: 10px;
+
+}
+
+.container .aside .ap {
+    width: 90%;
+    height: 15px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.container .aside .ap .apchild {
+    width: 90%;
+    height: 15px;
+    background-color: #009688;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container .aside .pg {
+    width: 90%;
+    height: 15px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.container .aside .pgchild {
+    width: 80%;
+    height: 15px;
+    background-color: #009688;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container .aside .ill {
+    width: 90%;
+    height: 15px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.container .aside .illchild {
+    width: 70%;
+    height: 15px;
+    background-color: #009688;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container .aside .md {
+    width: 90%;
+    height: 15px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.container .aside .mdchild {
+    width: 50%;
+    height: 15px;
+    background-color: #009688;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container .aside .eng {
+    width: 90%;
+    height: 15px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-left: 10px;
+    background-color: #009688;
+
+}
+
+.container .aside .span {
+    width: 90%;
+    height: 15px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.container .aside .spanchild {
+    width: 60%;
+    height: 15px;
+    background-color: #009688;
+    border-radius: 20px;
+    text-align: center;
+}
+.container .aside .germ {
+    width: 90%;
+    height: 15px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.container .aside .germchild {
+    width: 30%;
+    height: 15px;
+    background-color: #009688;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.footer .text {
+    text-align: center;
+    padding: 10px;
+}
+
+.footer .text a i {
+    padding-top: 10px;
+    padding: 5px;
+}
+.footer .text button {
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 6px 40px;
+}
+.footer .text button:hover {
+    background-color: #009688;
+}

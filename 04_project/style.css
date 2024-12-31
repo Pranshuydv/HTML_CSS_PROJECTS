@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+
+}
+
+.nav .logo {
+    font-size: 35px;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+.nav .navitem {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.nav .navitem a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: black;
+}
+
+.nav .navitem a:hover {
+    text-decoration: underline;
+}
+
+.container-fluid img {
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.container {
+    width: 70vw;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container .card img {
+    width: 300px;
+    height: 400px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.container .card img:hover {
+    box-shadow: 1px 1px 10px;
+}

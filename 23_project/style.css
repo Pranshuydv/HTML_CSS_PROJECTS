@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    width: 100vw;
+    height: 70px;
+    border-bottom: 4px solid gainsboro;
+}
+
+.nav .left {
+    float: left;
+    padding-left: 15%;
+
+}
+
+.nav .right {
+    float: right;
+    padding-right: 15%;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.container {
+    width: 70vw;
+    height: 180vh;
+    margin: 0 auto;
+}
+
+.container .photo {
+    width: 950px;
+    height: 350px;
+    margin-left: 3%;
+}
+
+.container .photo .left {
+    float: left;
+}
+
+.container .photo .left img {
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+.container .photo .right {
+    float: right;
+    width: 60%;
+    margin-top: 50px;
+}
+
+.container .photo .right button {
+    background-color: orange;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+}
+
+.container .photo .right button:hover {
+    background-color: rgb(206, 138, 10);
+}
+
+.container .icon {
+    display: flex;
+    justify-content: space-around;
+    width: 950px;
+    height: 100px;
+    margin-left: 3%;
+}
+
+
+.container .icon .col {
+    width: 260px;
+    height: 60px;
+}
+
+.container .icon img {
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.container .om {
+    margin-left: 45%;
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.container .om:hover {
+    background-color: rgb(72, 227, 72);
+    color: black;
+}
+
+.container h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container .pic {
+    width: 90%;
+    height: 800px;
+    margin-left: 3%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 5px;
+}
+
+.container .pic .box1 {
+    width: 440px;
+    height: 500px;
+}
+
+.container .pic .box1 img {
+    background-size: cover;
+    width: 440px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.container .pic .box2 {
+    width: 250px;
+    height: 500px;
+}
+
+.container .pic .box2 img {
+    background-size: cover;
+    width: 250px;
+    height: 500px;
+    border-radius: 15px;
+
+}
+
+.container .pic .box3 {
+    width: 230px;
+    height: 220px;
+}
+
+.container .pic .box3 img {
+    background-size: cover;
+    width: 230px;
+    height: 220px;
+    border-radius: 15px;
+
+}
+
+.container .pic .box4 {
+    width: 220px;
+    height: 220px;
+    margin-top: 5px;
+}
+
+.container .pic .box4 img {
+    background-size: cover;
+    width: 220px;
+    height: 220px;
+    border-radius: 15px;
+
+}
+
+.container .pic .box5 {
+    width: 220px;
+    height: 220px;
+    margin-top: 5px;
+
+}
+
+.container .pic .box5 img {
+    background-size: cover;
+    width: 220px;
+    height: 220px;
+    border-radius: 15px;
+
+}
+
+.container .pic .box6 {
+    width: 250px;
+    height: 220px;
+    margin-top: 5px;
+
+}
+
+.container .pic .box6 img {
+    background-size: cover;
+    width: 250px;
+    height: 220px;
+    border-radius: 15px;
+
+}
+
+.container .pic .box7 {
+    width: 225px;
+    height: 500px;
+    margin-top: 5px;
+    transform: translate(0px, -280px);
+}
+
+.container .pic .box7 img {
+    background-size: cover;
+    width: 225px;
+    height: 500px;
+    border-radius: 15px;
+
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    padding-top: 20px;
+    background-color: rgb(230, 219, 219);
+    margin-top: -80px;
+}
+
+.footer .center {
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}

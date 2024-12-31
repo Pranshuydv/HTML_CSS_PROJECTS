@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 670px;
+    background-color: black;
+}
+
+.container .aside {
+    float: left;
+    width: 25%;
+    height: 650px;
+}
+
+.container .aside .top {
+    width: 350px;
+    height: 200px;
+    background-color: rgb(26, 25, 25);
+}
+
+.container .aside .top {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container .aside .bottom {
+    width: 350px;
+    height: 430px;
+    background-color: rgb(26, 25, 25);
+}
+
+.container .aside .bottom {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container .aside .bottom .box1 {
+    width: 300px;
+    height: 150px;
+    background-color: rgb(50, 43, 43);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.container .aside .bottom .box1 button {
+    border-radius: 20px;
+    padding: 5px;
+    padding-right: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: black;
+}
+
+.container .aside .bottom .box2 {
+    width: 300px;
+    height: 150px;
+    background-color: rgb(50, 43, 43);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.container .aside .bottom .box2 button {
+    border-radius: 20px;
+    padding: 5px;
+    padding-right: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: black;
+}
+
+.container .section {
+    width: 74%;
+    height: 650px;
+    float: right;
+}
+
+.container .section .nav {
+    width: 1090px;
+    height: 60px;
+    background-color: rgb(33, 33, 33);
+}
+
+.container .section .nav .logo {
+    color: white;
+    float: left;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.container .section .nav .navitem {
+    color: white;
+    float: right;
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 50px;
+}
+
+.container .section .nav .navitem button {
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    color: black;
+}
+
+.container .section .content {
+    width: 1050px;
+    height: 550px;
+    background-color: rgb(48, 46, 46);
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.container .section .content .main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .section .content .main div {
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.container .section .content .col {
+    width: 200px;
+    height: 220px;
+    border-radius: 20px;
+    background-color: rgb(66, 63, 63);
+}
+
+.container .section .content .main .col .photo {
+    width: 150px;
+    height: 150px;
+    background-image: url(Music.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(77, 77, 214);
+}
+
+.footer p {
+    float: left;
+    color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.footer button {
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+    width: 150px;
+    color: black;
+}

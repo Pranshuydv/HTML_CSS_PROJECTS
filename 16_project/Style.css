@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 600px;
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .nav {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.container .nav p {
+    float: left;
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.container .nav .item {
+    float: right;
+}
+
+.container .nav .item a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+.container .nav .item a:hover {
+    color: whitesmoke;
+}
+
+.container .section .para {
+    margin: 7% 15%;
+    width: 480px;
+    height: 200px;
+}
+
+.container .section .para .impt {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container .section .para .btn {
+    display: flex;
+}
+
+.container .section .para button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.container .section .para button:hover {
+    background-color: rgb(50, 50, 247);
+
+}
+
+.container .section .para .btn .watch {
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.container .section .para .btn i {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.cell {
+    width: 100vw;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.cell .col1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(50, 50, 247);
+    transform: translate(-20px, -100px);
+    padding-top: 100px;
+    margin: 20px;
+}
+
+.cell .col1:hover {
+    background-color: orange;
+
+}
+
+.cell .col2:hover {
+    background-color: orange;
+
+}
+
+.cell .col3:hover {
+    background-color: orange;
+
+}
+
+.cell .col4:hover {
+    background-color: orange;
+
+}
+
+
+.cell .col2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(50, 50, 247);
+    transform: translate(-20px, -100px);
+    padding-top: 100px;
+    margin: 20px;
+}
+
+.cell .col3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(50, 50, 247);
+    transform: translate(-20px, -100px);
+    padding-top: 100px;
+    margin: 20px;
+}
+
+.cell .col4 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(50, 50, 247);
+    transform: translate(-20px, -100px);
+    padding-top: 100px;
+    margin: 20px;
+}

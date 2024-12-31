@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    width: 100vw;
+    height: 500px;
+    background-image: url(background.jpg);
+}
+
+.top .nav {
+    padding: 20px;
+    height: 60px;
+}
+
+.top .nav .logo {
+    float: left;
+    font-size: 30px;
+    padding-left: 10%;
+}
+
+.top .nav .navitem {
+    float: right;
+    padding-right: 10%;
+}
+
+.top .nav .navitem a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.top .nav .navitem a:hover {
+    border-bottom: 1px solid white;
+}
+
+.top .content {
+    width: 550px;
+    height: 300px;
+    margin: 10px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.top .content button {
+    width: 130px;
+    height: 50px;
+    font-weight: bold;
+    margin: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.top .content p i {
+    padding: 7px;
+    margin-top: 30px;
+}
+
+.bottom {
+    width: 100vw;
+    height: 500px;
+}
+
+
+.bottom .box .left {
+    float: left;
+    width: 25%;
+    padding-left: 10px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+
+.bottom .box .left button {
+    width: 130px;
+    height: 50px;
+    font-weight: bold;
+    margin: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.bottom .box .right {
+    float: right;
+    width: 57%;
+    height: 400px;
+    margin-right: 5%;
+    margin-top: 80px;
+}
+
+.bottom .box .right .grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+}
+
+.bottom .box .right .grid .col {
+    width: 220px;
+    height: 220px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.bottom .box .right .grid .col:hover {
+    background-color: rgb(242, 242, 210);
+}

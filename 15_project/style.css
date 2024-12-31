@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70vw;
+    height: 650px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 10px;
+    border-radius: 20px;
+    margin: 10px auto;
+    padding: 20px;
+    margin-top: 5%;
+}
+
+.container .form1 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.container .form1 .box1 {
+    float: left;
+    width: 50%;
+}
+
+.container .form1 .box2 {
+    float: right;
+    width: 50%;
+}
+
+.container .form1 input {
+    background-color: transparent;
+    width: 400px;
+    height: 35px;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.container .form2 {
+    font-size: 20px;
+    margin-top: 10px;
+    padding-top: 100px;
+}
+
+.container .form2 .box1 {
+    float: left;
+    width: 50%;
+}
+
+.container .form2 .box2 {
+    float: right;
+    width: 50%;
+}
+
+.container .form2 input {
+    background-color: transparent;
+    width: 400px;
+    height: 35px;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.container .form2 .box2 select {
+    background-color: transparent;
+    width: 400px;
+    height: 35px;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.container .form3 label {
+    font-size: 20px;
+}
+
+.container .form3 textarea {
+    background-color: transparent;
+    width: 1000px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.container .form4 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.container .form4 .box1 {
+    float: left;
+    width: 50%;
+}
+
+.container .form4 .box2 {
+    float: right;
+    width: 50%;
+}
+
+.container .form4 input {
+    background-color: transparent;
+    width: 400px;
+    height: 35px;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.container .form5 {
+    font-size: 20px;
+    margin-top: 10px;
+    padding-top: 100px;
+}
+
+.container .form5 .box1 {
+    float: left;
+    width: 50%;
+}
+
+.container .form5 .box2 {
+    float: right;
+    width: 50%;
+}
+
+.container .form5 input {
+    background-color: transparent;
+    width: 400px;
+    height: 35px;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.container .btn {
+    float: right;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container .btn:hover {
+    background-color: rgb(191, 41, 41);
+}

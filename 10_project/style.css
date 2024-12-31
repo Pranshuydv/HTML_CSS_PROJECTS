@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+.container {
+    width: 30vw;
+    height: 90vh;
+    margin: 10px auto;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.container .photo img {
+    width: 300px;
+    height: 200px;
+    transform: translate(40px, -40px);
+}
+
+.container .box {
+    width: 400px;
+    height: 420px;
+    transform: translate(0px, -80px);
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.container .box .si {
+    font-size: 40px;
+}
+
+.container .box .form label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container .box .form input {
+    width: 350px;
+    height: 30px;
+    background-color: transparent;
+    margin-top: 10px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.container .box button {
+    width: 350px;
+    height: 40px;
+    background-color: rgb(180, 108, 0);
+    border-radius: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.container .box button:hover {
+    background-color: rgb(206, 132, 22);
+
+}
+
+.container .box .para {
+    font-size: 17px;
+}
+
+.container h3 {
+    height: 200px;
+    height: 30px;
+    text-align: center;
+    transform: translate(0px, -50px);
+}
+
+.container .btn {
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: 25px;
+    transform: translate(0px, -50px);
+}
+
+.container .btn:hover {
+    background-color: rgb(180, 108, 0);
+
+}
+
+.footer {
+    margin-top: -30px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(249, 243, 243);
+}
+
+.footer .topic {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    margin-left: 39%;
+}
+
+.footer .topic h4 {
+    padding: 30px 15px;
+    color: blue;
+}
+
+.footer p {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}

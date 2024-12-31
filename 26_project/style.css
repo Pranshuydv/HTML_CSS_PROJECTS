@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 40vw;
+    margin: 0 auto;
+    margin-top: 1%;
+    background-color: whitesmoke;
+}
+
+.container .nav {
+    padding: 20px;
+
+}
+
+.container .nav .logo {
+    float: left;
+    border: 2px solid;
+    width: 100px;
+    height: 100px;
+}
+
+.container .nav .logo {
+    background-image: url(03.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.container .nav .navitem {
+    float: right;
+    display: flex;
+    text-align: center;
+}
+
+.container .nav .navitem h4 {
+    /* padding: 10px; */
+    padding: 0px 20px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.container .text {
+    margin: 15px;
+}
+
+.container .text p {
+    padding: 1px;
+}
+
+.container .btn button {
+    width: 250px;
+    height: 30px;
+    margin: 0px 5px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.container .circle {
+    width: 40vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .circle .col {
+    margin: 5px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.container .icon {
+    width: 40vw;
+    height: 40px;
+}
+
+.container .icon {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+.container .photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px 5px;
+
+}
+
+.container .photo .col1 {
+    width: 195px;
+    height: 180px;
+    background-color: red;
+}
+
+.container .photo .col2 {
+    width: 195px;
+    height: 180px;
+    background-color: red;
+}
+
+.container .photo .col3 {
+    width: 195px;
+    height: 180px;
+    background-color: red;
+}
+
+.container .photo .col4 {
+    width: 195px;
+    height: 180px;
+    background-color: red;
+}
+
+.container .photo .col5 {
+    width: 195px;
+    height: 180px;
+    background-color: red;
+}
+
+.container .photo .col6 {
+    width: 195px;
+    height: 180px;
+    background-color: red;
+}
+
+.container .photo .col7 {
+    width: 195px;
+    height: 180px;
+    background-color: red;
+}
+
+.container .photo .col8 {
+    width: 195px;
+    height: 180px;
+    background-color: red;
+}
+
+.container .photo .col9 {
+    width: 195px;
+    height: 180px;
+    background-color: red;
+}
+
+.container .photo .col1 {
+    background-image: url(01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .photo .col2 {
+    background-image: url(02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .photo .col3 {
+    background-image: url(03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .photo .col4 {
+    background-image: url(04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .photo .col5 {
+    background-image: url(05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .photo .col6 {
+    background-image: url(06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .photo .col7 {
+    background-image: url(10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .photo .col8 {
+    background-image: url(08.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .photo .col9 {
+    background-image: url(09.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    width: 40vw;
+    height: 30px;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
