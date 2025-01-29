@@ -1,0 +1,86 @@
+:root {
+  --hover-color-facebook: #4267B2;
+  --hover-color-twitter: #1DA1F2;
+  --hover-color-instagram: #E1306C;
+  --hover-color-github: #333;
+  --hover-color-youtube: #ff0000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+
+.wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  width: 200px;
+}
+
+.button i {
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+.button span {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  display: none;
+  color: inherit;
+}
+
+.button:hover span {
+  display: inline;
+}
+
+.facebook:hover {
+  background: var(--hover-color-facebook);
+  color: #fff;
+}
+
+.twitter:hover {
+  background: var(--hover-color-twitter);
+  color: #fff;
+}
+
+.instagram:hover {
+  background: var(--hover-color-instagram);
+  color: #fff;
+}
+
+.github:hover {
+  background: var(--hover-color-github);
+  color: #fff;
+}
+
+.youtube:hover {
+  background: var(--hover-color-youtube);
+  color: #fff;
+}
