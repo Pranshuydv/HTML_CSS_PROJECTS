@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+:root {
+
+    --button-color: #1e90ff;
+    --blue-color: #686de0;
+    --dark-blue: #130f40;
+
+}
+
+/* --nav---start-- */
+
+nav {
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 1;
+}
+
+nav>div {
+    display: flex;
+
+    p {
+        font-size: 45px;
+        padding-top: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+ul {
+    display: flex;
+
+    li {
+        list-style-type: none;
+        padding: 30px 20px;
+        font-size: 18px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+a:hover {
+    color: black;
+}
+
+.Join_btn {
+    width: 140px;
+    height: 45px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.Join_btn:hover {
+    background-color: var(--button-color);
+    color: white;
+    border: none;
+}
+
+
+/* --nav---End-- */
+
+
+
+/* --Section--Start-- */
+
+section {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 100px;
+    background-color: var(--button-color);
+    text-align: center;
+    padding-top: 200px;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    h1 {
+        font-size: 80px;
+    }
+
+    p {
+        cursor: pointer;
+    }
+}
+
+
+/* --Section--End-- */
+
+
+
+
+
+
+/*-- --------Our Teachers--Start------- --*/
+
+.container-teacher {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.container-teacher>p {
+    font-size: 25px;
+    letter-spacing: 4px;
+    font-family: serif;
+    padding-bottom: 10px;
+    color: var(--blue-color);
+}
+
+.container-teacher>h1 {
+    font-size: 40px;
+    font-weight: 100;
+    padding-top: 10px;
+    font-family: cursive;
+}
+
+.container-teacher>.profile {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.container-teacher>.profile>.profile-item {
+    width: 190px;
+    height: 190px;
+    margin: 40px;
+}
+
+.container-teacher>.profile>.profile-item>img {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+}
+
+.container-teacher>.profile>.profile-item>h3 {
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.container-teacher>.profile>.profile-item>p {
+    font-size: 16px;
+    font-family: serif;
+    letter-spacing: 3px;
+}
+
+
+
+/*-- --------Our Teachers--End------- --*/
+
+
+
+
+
+/*-- --------Testimonal--Start------- --*/
+
+.container-testimonal {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.container-testimonal>p {
+    font-size: 25px;
+    letter-spacing: 4px;
+    font-family: serif;
+    padding-bottom: 10px;
+    color: var(--blue-color);
+    text-align: center;
+}
+
+.container-testimonal>h1 {
+    font-size: 40px;
+    font-weight: 100;
+    padding-top: 10px;
+    font-family: cursive;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.container-testimonal>.t-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container-testimonal>.t-box>.card {
+    width: 370px;
+    height: 300px;
+}
+
+.container-testimonal>.t-box>.card>.top {
+    width: 370px;
+    padding-bottom: 20px;
+    background-color: #F8F9Fa;
+    box-shadow: 1px 1px 4px 1px gray;
+
+}
+
+.container-testimonal>.t-box>.card>.top>p {
+    font-size: 18px;
+    letter-spacing: 3px;
+    padding: 10px;
+
+    i {
+        font-size: 40px;
+        color: var(--button-color);
+    }
+}
+
+.container-testimonal>.t-box>.card>.bottom {
+    margin-top: 30px;
+}
+
+.container-testimonal>.t-box>.card>.bottom>.left {
+    float: left;
+    width: 25%;
+}
+
+.container-testimonal>.t-box>.card>.bottom>.left>img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.container-testimonal>.t-box>.card>.bottom>.right {
+    float: right;
+    width: 75%;
+    font-family: cursive;
+
+    h3 {
+        font-size: 25px;
+        padding: 10px 20px;
+    }
+
+    p {
+        padding: 0px 20px;
+        font-size: 18px;
+        color: darkcyan;
+    }
+}
+
+
+/*-- --------Testimonal--End------- --*/
+
+
+
+
+
+/*-- --------Footer--Start------- --*/
+
+footer {
+    width: 100%;
+    height: 550px;
+    margin-top: 100px;
+    background-color: #2e2964;
+}
+
+footer>.foot-box {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+footer>.foot-box>.box1 {
+    width: 400px;
+    height: 260px;
+
+    p {
+        letter-spacing: 2px;
+        padding-top: 10px;
+        color: white;
+    }
+
+    span {
+        font-size: 30px;
+        cursor: pointer;
+        padding: 20px 10px;
+        display: inline-block;
+
+        :hover {
+            color: #1e90ff;
+        }
+    }
+
+}
+
+footer>.foot-box>.box1>div {
+    display: flex;
+
+    p {
+        font-size: 40px;
+        padding-top: 20px;
+        color: gray;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+footer>.foot-box>.box2 {
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    font-family: cursive;
+
+    h3 {
+        font-size: 25px;
+        padding-bottom: 30px;
+        color: wheat;
+    }
+
+    i {
+        float: left;
+        font-size: 30px;
+        color: wheat;
+    }
+
+    span {
+        font-size: 25px;
+    }
+}
+
+footer>.foot-box>.box3 {
+    width: 200px;
+    height: 350px;
+    text-align: center;
+    font-family: cursive;
+
+    h3 {
+        font-size: 25px;
+        padding-bottom: 30px;
+        color: wheat;
+    }
+
+    p {
+        font-size: 18px;
+        padding: 10px 5px;
+        cursor: pointer;
+
+        a {
+            color: black;
+
+        }
+    }
+}
+
+footer>.foot-box>.box3>p>a:hover {
+    color: white;
+}
+
+footer>.foot-box>.box4 {
+    width: 300px;
+    height: 300px;
+    font-family: cursive;
+
+    h3 {
+        font-size: 25px;
+        color: black;
+    }
+
+    input {
+        width: 300px;
+        height: 40px;
+        margin-top: 20px;
+        font-size: 20px;
+        padding-left: 5px;
+    }
+
+    button {
+        width: 150px;
+        height: 40px;
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 20px;
+        background-color: var(--dark-blue);
+        color: white;
+        border: none;
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+}
+
+footer>.foot-box>.box4>button:hover {
+    background-color: #2e2964;
+    border: 1px solid;
+
+}
+
+footer>p {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+
+    span {
+        color: #1e90ff;
+    }
+}
+
+
+/*-- --------Footer--End------- --*/
